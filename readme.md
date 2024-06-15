@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Explore our website's header and footer gallery, where striking design and intuitive navigation come together. Our header captivates with bold visuals and clear navigation, while our footer gallery showcases curated images that embody our brand's essence. Experience seamless browsing from top to bottom.
+  The project centers on creating a dynamic header and footer gallery for a website, aiming to enhance skills in designing varied headers while applying animations for interactive engagement. It includes a well-structured landing page as the site's entry point, featuring intuitive navigation and a clean layout. The header gallery showcases diverse designs incorporating different styles of typography, color schemes, and imagery to demonstrate creativity in design. Complementing this, the footer gallery displays various layouts and interactive elements, contributing to a cohesive user interface. Technology-wise, Bootstrap is used for responsive icons, HTML forms the structural backbone for content organization, and CSS adds styling to enhance visual appeal and apply animations effectively to headers and footers, thereby enriching the user experience across different devices.
 </div>
 
 <br />
