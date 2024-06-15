@@ -1,34 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Fredoka+One&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
 
-a {
-  text-decoration: none;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: fit-content;
-  width: 100vw;
-  overflow-x: hidden;
-}
-
-section {
-  width: 100vw;
-  padding: 1rem 5vw;
-  display: flex;
-  gap: 1rem;
-  align-items: flex-end;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Fredoka+One&display=swap");
 
 * {
   margin: 0;
@@ -57,14 +29,13 @@ section {
   gap: 1rem;
   align-items: flex-end;
 }
-
 /* Design 1 */
 .design1 {
-  background-color: #f0f0f0; /* Light gray background */
-  color: #333; /* Dark gray text */
+  background-color: #f0f0f0; 
+  color: #333; 
   padding: 20px;
   width: 100%;
-  margin-bottom: 20px; /* Added margin-bottom for spacing */
+  margin-bottom: 20px; 
 }
 .design1 .design-one-footer .footerContainer {
   width: 100%;
@@ -81,14 +52,14 @@ section {
 .design1 .design-one-footer .socialIcons a {
   text-decoration: none;
   padding: 10px;
-  background-color: #fff; /* White background for icons */
+  background-color: #fff; 
   margin: 0 10px;
   border-radius: 50%;
-  border: 1px solid #ccc; /* Light gray border */
+  border: 1px solid #ccc; 
 }
 .design1 .design-one-footer .socialIcons a i {
   font-size: 30px;
-  color: #333; /* Dark gray icons */
+  color: #333; 
   opacity: 0.7;
   justify-content: space-around;
 }
@@ -101,17 +72,17 @@ section {
   margin: 0 10px;
 }
 .design1 .design-one-footer .footerNav ul li a {
-  color: #333; /* Dark gray text */
+  color: #333; 
   font-size: 1.3em;
   opacity: 0.7;
 }
 .design1 .design-one-footer .footerBottom {
-  background-color: #e0e0e0; /* Light gray background */
+  background-color: #e0e0e0; 
   padding: 10px 0;
   text-align: center;
 }
 .design1 .design-one-footer .footerBottom p {
-  color: #333; /* Dark gray text */
+  color: #333; 
 }
 .design1 .design-one-footer .designer {
   opacity: 0.7;
@@ -119,38 +90,6 @@ section {
   letter-spacing: 1px;
   font-weight: 400;
   margin: 5px;
-}
-
-
-/* Design 2 */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Fredoka+One&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: fit-content;
-  width: 100vw;
-  overflow-x: hidden;
-}
-
-section {
-  width: 100vw;
-  padding: 1rem 5vw;
-  display: flex;
-  gap: 1rem;
-  align-items: flex-end;
 }
 
 /* Design 2 */
@@ -269,6 +208,7 @@ section {
 
 
 /* Design 3 */
+/* General section styling */
 .design3 {
   background: #3e3e3e; 
   color: #ffffff; 
@@ -291,20 +231,21 @@ section {
 footer.design3 {
   background-color: #f5f5f5;
   text-align: center;
-  padding: 50px 0;
+  padding: 50px 20px;
   font-size: 16px;
   color: #3e3e3e; 
+  width: 100%;
 }
 
 .design-three-footer {
   width: 100%; 
-  max-width: 100%; 
+  max-width: 1200px; 
   margin: 0 auto; 
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  box-sizing: border-box  ;
+  box-sizing: border-box;
 }
 
 .design-three-footer img.wbb {
@@ -334,10 +275,10 @@ footer.design3 {
 
 .footer-center,
 .footer-right {
-  width: 45%; /* Adjust width as needed */
+  width: 100%;
   vertical-align: top;
   margin-top: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .footer-center div,
@@ -348,8 +289,8 @@ footer.design3 {
 .footer-center i,
 .footer-right i {
   display: inline-block;
-  background-color: #f9b233; /* Yellow (representing Grizzly) */
-  color: #ffffff; /* White icon */
+  background-color: #f9b233; 
+  color: #d3c8bb;
   font-size: 25px;
   width: 38px;
   height: 38px;
@@ -364,19 +305,12 @@ footer.design3 {
   display: inline-block;
   vertical-align: middle;
   margin: 0;
-  color: #3e3e3e; /* Dark gray text */
-}
-
-.footer-center p span {
-  display: block;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.5;
-  margin-top: 5px;
+  padding-bottom: 10px;
+  color: #3e3e3e; 
 }
 
 .footer-center p a {
-  color: #f9b233; /* Yellow (representing Grizzly) */
+  color: #f9b233; 
   text-decoration: none;
 }
 
@@ -384,7 +318,7 @@ footer.design3 {
   font-size: 14px;
   font-weight: normal;
   line-height: 1.5;
-  color: #92999f; /* Grayish blue */
+  color: #92999f; 
 }
 
 .footer-company-about span {
@@ -403,10 +337,10 @@ footer.design3 {
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #f9b233; /* Yellow (representing Grizzly) */
+  background-color: #f9b233;
   border-radius: 50%;
   font-size: 20px;
-  color: #ffffff; /* White icon */
+  color: #ffffff; 
   text-align: center;
   line-height: 35px;
   margin-right: 10px;
@@ -414,19 +348,20 @@ footer.design3 {
 }
 
 
+
 /* Design 4 */
 .design4 {
   text-align: center;
   padding: 10px 0;
   height:   ;
-  background-color: #fff; /* White background for section */
+  background-color: #fff;
   margin-bottom: 20px;
 }
 
 .design-four-footer {
-  background-color: #ffd8bf; /* Pastel peach background */
+  background-color: #ffd8bf; 
   padding: 20px;
-  color: #666; /* Dark gray text for footer */
+  color: #666; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -442,7 +377,7 @@ footer.design3 {
 }
 
 .design-four-footer .copyright img {
-  width: 150px; /* Adjust logo size */
+  width: 150px; 
   margin-right: 10px;
 }
 
@@ -458,7 +393,7 @@ footer.design3 {
 }
 
 .social a.support {
-  color: #FF6347; /* Coral color for Contact Us link */
+  color: #FF6347; 
   padding: 15px;
   font-weight: bold;
   border-style:solid ;
@@ -466,27 +401,143 @@ footer.design3 {
 }
 
 .social a.face {
-  color: #1877F2; /* Coral color for Contact Us link */
+  color: #1877F2; 
   padding: 15px;
   font-weight: bold;
   border-style: solid;
 }
 
 .social a.tweet {
-  color: #1DA1F2; /* Coral color for Contact Us link */
+  color: #1DA1F2; 
   padding: 15px;
   font-weight: bold;
   border-style: solid;
 }
 
 .social a.linked {
-  color: #0077B5; /* Coral color for Contact Us link */
+  color: #0077B5; 
   padding: 15px;
   font-weight: bold;
   border-style: solid;
 }
 
 .design-four-footer .cn-logo {
-  width: 150px; /* Adjust logo size */
+  width: 150px; 
   margin-right: 20px;
+}
+
+
+/* Design 5 */
+
+.design-five-footer {
+  background-color: #fff4e6;
+  position: relative;
+  width: 100%;
+  min-height: 350px;
+  padding: 3rem 1rem;
+}
+
+.design-five-footer .container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.design-five-footer .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.design-five-footer .col {
+  min-width: 250px;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  padding: 0 2rem;
+}
+
+.design-five-footer .col .logo {
+  width: 100px;
+  margin-bottom: 25px;
+}
+
+.design-five-footer .col h3 {
+  color: #ffcc99;
+  margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.design-five-footer .col h3::after {
+  content: '';
+  height: 3px;
+  width: 0px;
+  background-color: #ffcc99;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.design-five-footer .col .social a i {
+  color: #ffcc99;
+  margin-top: 2rem;
+  margin-right: 5px;
+  font-size: 24px;
+}
+
+.design-five-footer .col .links a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 5px;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.design-five-footer .col .links a::before {
+  content: '';
+  height: 16px;
+  width: 3px;
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  background-color: #ffcc99;
+  opacity: 0;
+}
+
+.design-five-footer .col .contact-details {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.design-five-footer .col .contact-details i {
+  margin-right: 15px;
+}
+
+.design-five-footer .row .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.design-five-footer .row .form input {
+  background-color: #f0f0f0;
+  outline: none;
+  padding: 14px 20px;
+  border-radius: 6px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.design-five-footer .form button {
+  padding: 14px 20px;
+  border: 0;
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #ffcc99;
 }
