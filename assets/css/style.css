@@ -26,7 +26,7 @@ h1 * {
 
 /* Dep */
 body {
-  background: linear-gradient(75deg, #ececec 0%, #d9d9d9 100%); /* Light grey gradient */
+  background: linear-gradient(75deg, #ececec 0%, #d9d9d9 100%); 
   background: -moz-linear-gradient(75deg, #ececec 0%, #d9d9d9 100%);
   background: -webkit-linear-gradient(75deg, #ececec 0%, #d9d9d9 100%);
 }
